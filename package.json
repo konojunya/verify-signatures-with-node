@@ -1,0 +1,19 @@
+{
+  "name": "verify-signatures-with-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/konojunya/verify-signatures-with-node.git",
+  "author": "Junya Kono <junya03dance@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.1"
+  }
+}
